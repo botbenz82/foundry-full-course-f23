@@ -14,7 +14,7 @@ contract AINotHelpful {
         }
     } 
 
-    function assemblyView() external view returns (uint256) {
+    function assemblyView() external view returns (uint256) { 
         assembly {
             mstore(0, result)
             return(0, 0x20)

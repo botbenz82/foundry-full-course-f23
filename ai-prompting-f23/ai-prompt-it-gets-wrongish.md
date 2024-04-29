@@ -12,7 +12,7 @@ contract AINotHelpful {
         assembly {
             sstore(0x00, newNumber)
         }
-    }
+    } 
 
     function assemblyView() external view returns (uint256) {
         assembly {
